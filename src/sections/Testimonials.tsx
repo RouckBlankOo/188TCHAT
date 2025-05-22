@@ -5,7 +5,10 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-b from-[#2E0D0D] via-[#B62706]/10 to-transparent">
+    <section
+      id="download"
+      className="py-20 md:py-28 bg-gradient-to-b from-[#2E0D0D] via-[#B62706]/10 to-transparent"
+    >
       <div className="container">
         <h2 className="text-5xl text-center lg:text-7xl font-extrabold tracking-tighter text-[#B62706] drop-shadow-lg">
           Beyond Expectations.

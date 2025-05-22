@@ -1,4 +1,4 @@
-export default function Features() {
+export default function About() {
   return (
     <section className="px-4 py-20">
       <h1 className="mb-6 text-4xl font-bold">About Us</h1>

@@ -17,7 +17,7 @@ export const LogoTicker = () => {
   const tickerFeatures = [...features, ...features];
 
   return (
-    <section className="py-20 md:py-24">
+    <section id="features" className="py-20 md:py-24">
       <div className="container">
         <div className="flex items-center gap-8">
           <div className="flex-1 md:flex-none">

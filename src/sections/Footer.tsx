@@ -4,7 +4,7 @@ import INstaSocial from "@/assets/social-instagram.svg";
 
 export const Footer = () => {
   return (
-    <footer className="py-8 border-t border-white/15 bg-[#1a0505]">
+    <footer className={`py-8 border-t border-white/15 bg-[#1a0505] `}>
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-y-6">
           {/* Left: Logo and Copyright */}

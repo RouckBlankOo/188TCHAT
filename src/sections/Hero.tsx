@@ -4,12 +4,6 @@ import { Button } from "@/components/button";
 import starsBg from "@/assets/stars.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-// Import Montserrat font from next/font/google
-import { Montserrat } from "next/font/google";
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "700", "900"],
-});
 
 export const Hero = () => {
   //bg start animation with scroll for depth
@@ -35,7 +29,7 @@ export const Hero = () => {
         ease: "linear",
         duration: 70,
       }}
-      className={`h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] ${montserrat.className}`}
+      className={`h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]  `}
       style={{
         backgroundImage: `url(${starsBg.src})`,
         backgroundPositionY,
@@ -135,10 +129,10 @@ export const Hero = () => {
       </motion.div>
       {/* CONTENT */}
       <div className="container relative mt-16">
-        <h1 className="text-center text-8xl md:text-9xl lg:text-[200px] font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,#2E0D0D,#B62706)] text-transparent bg-clip-text font-sans">
+        <h1 className="text-center text-8xl md:text-9xl lg:text-[200px] font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,#2E0D0D,#B62706)] text-transparent bg-clip-text">
           188TCHAT
         </h1>
-        <p className="text-center mt-6 text-lg md:text-xl lg:text-2xl text-white/60 max-w-3xl mx-auto font-sans">
+        <p className="text-center mt-6 text-lg md:text-xl lg:text-2xl text-white/60 max-w-3xl mx-auto">
           A powerful messaging platform with military-grade encryption,
           self-destructing messages, and secure voice & video calls. Keep your
           conversations private exactly the way they should be.

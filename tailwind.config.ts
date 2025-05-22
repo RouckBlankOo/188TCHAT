@@ -24,7 +24,7 @@ const config: Config = {
       md: "768px",
       lg: "1200px",
     },
-    extend: {},
+   
   },
   plugins: [],
 };

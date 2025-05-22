@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export const Features = () => {
   return (
-    <section className="pt-20 pb-16 md:pt-28 md:pb-24">
+    <section id="about" className="pt-20 pb-16 md:pt-28 md:pb-24 font-sans">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/* Left Side: About Content */}
         <div className="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0">
