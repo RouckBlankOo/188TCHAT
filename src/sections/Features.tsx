@@ -4,23 +4,6 @@ import { Button } from "@/components/button";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-const PhoneMockup: React.FC = () => (
-  <div className="relative mx-auto w-[280px] md:w-[320px]">
-    <div className="rounded-[36px] overflow-hidden border-8 border-gray-800 shadow-xl relative">
-      <div className="bg-gray-800 absolute top-0 left-0 right-0 z-10 h-6 w-full">
-        <div className="absolute top-1.5 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gray-600 rounded-full"></div>
-      </div>
-      <div className="pt-10 bg-[#2E0D0D] h-[580px] overflow-hidden relative">
-        <img
-          src="src/assets/image.png"
-          alt="188TCHAT app interface"
-          className="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  </div>
-);
-
 export const Features = () => {
   return (
     <section className="pt-20 pb-16 md:pt-28 md:pb-24">
@@ -46,12 +29,15 @@ export const Features = () => {
             <Button />
           </div>
         </div>
-        {/* Right Side: Phone Mockup with Red Glow */}
-        <div className="lg:w-1/2 relative flex justify-center">
-          <div className="bg-gradient-radial from-[#8A2020]/70 to-transparent rounded-full w-[500px] h-[500px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 opacity-50"></div>
-          <div className="relative -z-0 animate-float">
-            <PhoneMockup />
-          </div>
+        {/* Right Side: Simple Image */}
+        <div className="lg:w-1/2 flex justify-center">
+          <Image
+            src="/image-left.png"
+            alt="188TCHAT app interface"
+            width={320}
+            height={580}
+            className="rounded-2xl shadow-xl object-cover"
+          />
         </div>
       </div>
     </section>

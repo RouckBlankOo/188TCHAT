@@ -1,4 +1,4 @@
-import LogoIcon from "@/assets/logo.svg";
+import LogoIcon from "@/assets/LogoX.svg";
 import XSocial from "@/assets/social-x.svg";
 import INstaSocial from "@/assets/social-instagram.svg";
 
@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-y-6">
           {/* Left: Logo and Copyright */}
           <div className="flex items-center gap-x-4">
-            <LogoIcon className="h-8 w-8 border border-white/20 rounded-lg" />
+            <LogoIcon className="h-8 w-8" />
             <span className="font-medium text-white/80">
               © {new Date().getFullYear()} 188TCHAT. All rights reserved.
             </span>

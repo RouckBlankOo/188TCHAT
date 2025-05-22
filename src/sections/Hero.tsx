@@ -41,7 +41,7 @@ export const Hero = () => {
       {/* shadow */}
       <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgba(138,32,32,0.5)_15%,rgba(46,13,13,0.5)_78%,transparent)]"></div>
       {/* THE BIG PURPLE PLANET */}
-      <div className="absolute h-64 w-64 lg:h-[500px] lg:w-[500px] rounded-full border border-white/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(50%_50%_at_30%_30%,#fff,#8A2020_40%,#2E0D0D_80%,#1a0505_100%)] shadow-[-20px_-20px_60px_rgba(138,32,32,0.5),0_0_120px_40px_rgba(46,13,13,0.4)]"></div>{" "}
+      <div className="absolute h-64 w-64 lg:h-[500px] lg:w-[500px] rounded-full border border-white/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(50%_50%_at_30%_30%,#862828FF_40%,#8A2020_40%,#2E0D0D_80%,#1a0505_100%)] shadow-[-20px_-20px_60px_rgba(138,32,32,0.5),0_0_120px_40px_rgba(46,13,13,0.4)]"></div>{" "}
       {/* FIRST RING */}
       <motion.div
         //to cover the -translate-x,y-1/2
@@ -136,7 +136,7 @@ export const Hero = () => {
       </motion.div>
       {/* CONTENT */}
       <div className="container relative mt-16">
-        <h1 className="text-center text-8xl md:text-9xl lg:text-[200px] font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,#2E0D0D,#8A2020)] text-transparent bg-clip-text">
+        <h1 className="text-center text-8xl md:text-9xl lg:text-[200px] font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,#2E0D0D,#8A2020)] text-transparent bg-clip-text">
           188TCHAT
         </h1>
         <p className="text-center mt-6 text-lg md:text-xl lg:text-2xl text-white/60 max-w-3xl mx-auto">
