@@ -39,7 +39,7 @@ export const LogoTicker = () => {
               {tickerFeatures.map((feature, index) => (
                 <span
                   key={index}
-                  className="h-9 flex items-center text-lg font-semibold text-[#8A2020] whitespace-nowrap px-6 py-2 bg-white/10 rounded-lg border border-[#2E0D0D]/20 shadow"
+                  className="h-9 flex items-center text-lg font-semibold text-[#B62706] whitespace-nowrap px-6 py-2 bg-white/10 rounded-lg border border-[#2E0D0D]/20 shadow"
                 >
                   {feature}
                 </span>

@@ -1,4 +1,4 @@
-import LogoIcon from "@/assets/image.svg";
+import LogoIcon from "@/assets/Group.png";
 import MenuIcon from "@/assets/icon-menu.svg";
 import { Button } from "@/components/button";
 
@@ -11,8 +11,8 @@ export const Header = () => {
           <div className="hidden md:block absolute inset-0 backdrop-blur -z-10"></div>
           <div>
             {/* Logo with white background and shadow for visibility */}
-            <div className="inline-flex justify-center items-center bg-white rounded-xl shadow h-12 w-12">
-              <LogoIcon className="h-8 w-8" />
+            <div className="inline-flex item-center justify-center p-3 ">
+              <img src={LogoIcon.src} alt="Logo" className="h-12 w-12" />
             </div>
           </div>
           <div className="hidden md:block">

@@ -22,7 +22,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               aria-label="X (Twitter)"
             >
-              <XSocial className="h-6 w-6 text-white/40 hover:text-[#8A2020] transition" />
+              <XSocial className="h-6 w-6 text-white/40 hover:text-[#B62706] transition" />
             </a>
             <a
               href="https://instagram.com/"
@@ -30,7 +30,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <INstaSocial className="h-6 w-6 text-white/40 hover:text-[#8A2020] transition" />
+              <INstaSocial className="h-6 w-6 text-white/40 hover:text-[#B62706] transition" />
             </a>
           </div>
         </div>

@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
 
   return submitted ? (
-    <div className="text-center text-lg text-[#8A2020] font-semibold mt-8">
+    <div className="text-center text-lg text-[#B62706] font-semibold mt-8">
       Thank you for contacting us! We will get back to you soon.
     </div>
   ) : (
@@ -56,26 +56,26 @@ const ContactForm = () => {
         name="name"
         required
         placeholder="Your Name"
-        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#8A2020]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#8A2020]"
+        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#B62706]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#B62706]"
       />
       <input
         type="email"
         name="email"
         required
         placeholder="Your Email"
-        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#8A2020]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#8A2020]"
+        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#B62706]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#B62706]"
       />
       <textarea
         name="message"
         required
         placeholder="How can we help you?"
         rows={5}
-        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#8A2020]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#8A2020]"
+        className="w-full px-5 py-3 rounded-lg bg-white/10 border border-[#B62706]/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#B62706]"
       />
       <div className="text-center">
         <button
           type="submit"
-          className="py-4 px-8 rounded-lg font-medium text-lg bg-gradient-to-b from-[#2E0D0D] to-[#8A2020] shadow-lg hover:scale-105 transition"
+          className="py-4 px-8 rounded-lg font-medium text-lg bg-gradient-to-b from-[#2E0D0D] to-[#B62706] shadow-lg hover:scale-105 transition"
         >
           Send Message
         </button>
@@ -122,14 +122,14 @@ export const CallToAction = () => {
       >
         {/* Initial masking with red */}
         <div
-          className="absolute inset-0 bg-[#8A2020] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,#2E0D0D,transparent)] group-hover:opacity-0 transition duration-1000"
+          className="absolute inset-0 bg-[#B62706] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,#2E0D0D,transparent)] group-hover:opacity-0 transition duration-1000"
           style={{
             backgroundImage: `url(${Gridbg.src})`,
           }}
         ></div>
         {/* Mouse hover masking with red */}
         <motion.div
-          className="absolute inset-0 bg-[#8A2020] bg-blend-overlay opacity-0 group-hover:opacity-100 transition duration-1000"
+          className="absolute inset-0 bg-[#B62706] bg-blend-overlay opacity-0 group-hover:opacity-100 transition duration-1000"
           style={{
             maskImage,
             backgroundImage: `url(${Gridbg.src})`,

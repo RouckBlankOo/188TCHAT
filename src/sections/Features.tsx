@@ -10,11 +10,11 @@ export const Features = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/* Left Side: About Content */}
         <div className="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0">
-          <div className="text-[#8A2020] uppercase font-medium tracking-wide mb-4">
+          <div className="text-[#B62706] uppercase font-medium tracking-wide mb-4">
             Secure Messaging Platform
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
-            Transform your <span className="text-[#8A2020]">Conversations</span>{" "}
+            Transform your <span className="text-[#B62706]">Conversations</span>{" "}
             into Private, Secure Connections
           </h1>
           <p className="text-lg text-white/70 mb-8 max-w-xl">
