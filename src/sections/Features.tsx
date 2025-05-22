@@ -32,7 +32,7 @@ export const Features = () => {
         {/* Right Side: Simple Image */}
         <div className="lg:w-1/2 flex justify-center">
           <Image
-            src="/image-left.png"
+            src="/Sign in-left.png"
             alt="188TCHAT app interface"
             width={320}
             height={580}
