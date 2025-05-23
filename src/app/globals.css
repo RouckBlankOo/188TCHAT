@@ -8,3 +8,8 @@
     font-family: 'Montserrat' ;
     scroll-behavior: smooth;
   }
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

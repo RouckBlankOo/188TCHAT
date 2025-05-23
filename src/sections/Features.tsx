@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const Features = () => {
   return (
     <section id="about" className="pt-20 pb-16 md:pt-28 md:pb-24 font-sans">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center px-2">
         {/* Left Side: About Content */}
         <div className="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0">
           <div className="text-[#B62706] uppercase font-medium tracking-wide mb-4">
@@ -36,7 +36,7 @@ export const Features = () => {
             alt="188TCHAT app interface"
             width={320}
             height={580}
-            className="rounded-2xl shadow-xl object-cover"
+            className="rounded-2xl shadow-xl object-cover w-full max-w-xs sm:max-w-sm md:max-w-md"
           />
         </div>
       </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 export const Testimonials = () => {
@@ -18,24 +17,24 @@ export const Testimonials = () => {
           <br />
           Download the app and experience it yourself!
         </p>
-        <div className="flex justify-center gap-8 mt-12 flex-col sm:flex-row items-center">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mt-12 items-center w-full">
           <a
             href="https://play.google.com/store"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[#2E0D0D] hover:bg-[#B62706] text-white px-8 py-4 rounded-xl shadow-lg transition-all duration-200 border-2 border-[#B62706]/30 hover:scale-105"
+            className="flex flex-row items-center justify-center gap-3 bg-[#B62706] hover:bg-[#2E0D0D] text-white px-6 py-4 md:px-8 md:py-5 rounded-xl shadow-lg transition-all duration-200 border-2 border-[#B62706]/30 hover:scale-105 w-full sm:w-72 font-bold text-base md:text-lg"
           >
-            <FaGooglePlay size={28} />
-            <span className="font-semibold text-lg">Get it on Play Store</span>
+            <FaGooglePlay size={24} className="md:size-7" />
+            <span className="whitespace-nowrap">Get it on Play Store</span>
           </a>
           <a
             href="https://www.apple.com/app-store/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[#2E0D0D] hover:bg-[#B62706] text-white px-8 py-4 rounded-xl shadow-lg transition-all duration-200 border-2 border-[#B62706]/30 hover:scale-105"
+            className="flex flex-row items-center justify-center gap-3 bg-[#B62706] hover:bg-[#2E0D0D] text-white px-6 py-4 md:px-8 md:py-5 rounded-xl shadow-lg transition-all duration-200 border-2 border-[#B62706]/30 hover:scale-105 w-full sm:w-72 font-bold text-base md:text-lg"
           >
-            <FaApple size={28} />
-            <span className="font-semibold text-lg">Download on App Store</span>
+            <FaApple size={24} className="md:size-7" />
+            <span className="whitespace-nowrap">Download on App Store</span>
           </a>
         </div>
       </div>
