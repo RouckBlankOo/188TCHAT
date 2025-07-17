@@ -1,6 +1,7 @@
 import LogoIcon from "@/assets/LogoX.svg";
 import XSocial from "@/assets/social-x.svg";
 import INstaSocial from "@/assets/social-instagram.svg";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -8,11 +9,19 @@ export const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-y-6">
           {/* Left: Logo and Copyright */}
-          <div className="flex items-center gap-x-4">
-            <LogoIcon className="h-8 w-8" />
-            <span className="font-medium text-white/80">
-              © {new Date().getFullYear()} 188TCHAT. All rights reserved.
-            </span>
+          <div className="flex flex-col md:flex-row items-center gap-x-4 gap-y-2">
+            <div className="flex items-center gap-x-4">
+              <LogoIcon className="h-8 w-8" />
+              <span className="font-medium text-white/80">
+                © {new Date().getFullYear()} 188TCHAT. All rights reserved.
+              </span>
+            </div>
+            <Link 
+              href="/privacy-policy" 
+              className="text-white/60 hover:text-[#B62706] transition text-sm underline"
+            >
+              Privacy Policy
+            </Link>
           </div>
           {/* Right: Social Media */}
           <div className="flex gap-x-6">
