@@ -23,14 +23,6 @@ const PrivacyPolicy = () => {
             protects You.
           </p>
 
-          <p className="text-white/80 mb-8">
-            We use Your Personal data to provide and improve the Service. By
-            using the Service, You agree to the collection and use of
-            information in accordance with this Privacy Policy. This Privacy
-            Policy has been created with the help of the Privacy Policy
-            Generator.
-          </p>
-
           <h2 className="text-3xl font-bold text-[#B62706] mt-12 mb-6">
             Interpretation and Definitions
           </h2>
