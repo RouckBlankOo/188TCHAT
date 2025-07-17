@@ -16,8 +16,8 @@ export const Footer = () => {
                 © {new Date().getFullYear()} 188TCHAT. All rights reserved.
               </span>
             </div>
-            <Link 
-              href="/privacy-policy" 
+            <Link
+              href="/privacy-policy"
               className="text-white/60 hover:text-[#B62706] transition text-sm underline"
             >
               Privacy Policy
